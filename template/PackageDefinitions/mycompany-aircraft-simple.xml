@@ -1,0 +1,40 @@
+<AssetPackage Name="mycompany-aircraft-simple" Version="0.1.0">
+	<ItemSettings>
+		<ContentType>AIRCRAFT</ContentType>
+		<Title>Simple Aircraft</Title>
+		<Manufacturer>My Manufacturer</Manufacturer>
+		<Creator>My Company</Creator>
+		<Description/>
+	</ItemSettings>
+	<Flags>
+		<VisibleInStore>true</VisibleInStore>
+		<CanBeReferenced>true</CanBeReferenced>
+	</Flags>
+	<AssetGroups>
+		<AssetGroup Name="ContentInfo">
+			<Type>Copy</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageDefinitions\mycompany-aircraft-simple\ContentInfo\</AssetDir>
+			<OutputDir>ContentInfo\mycompany-aircraft-simple\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="MarketplaceData">
+			<Type>Copy</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageDefinitions\mycompany-aircraft-simple\MarketplaceData\</AssetDir>
+			<OutputDir>MarketplaceData\mycompany-aircraft-simple\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="MyCompany_Simple_Aircraft">
+			<Type>SimObject</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\SimObjects\Airplanes\MyCompany_Simple_Aircraft\</AssetDir>
+			<OutputDir>SimObjects\Airplanes\MyCompany_Simple_Aircraft\</OutputDir>
+		</AssetGroup>
+	</AssetGroups>
+</AssetPackage>
+

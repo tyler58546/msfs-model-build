@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ModelInfo>
+	<LODS>
+		<LOD minSize="50" ModelFile="model.gltf"/>
+	</LODS>
+</ModelInfo>
